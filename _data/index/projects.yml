@@ -1,22 +1,31 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
+- name: RGB-D Semantic Segmentation
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
+  gh_user: dhipatel21
+  repo: RGBD_Semantic_Segmentation
+  img: /static/assets/img/landing/semantic_segmentation.jpg
+  desc: Trained multiple semantic segmentation models, demonstrating improved accuracy with the NYUv2 dataset after adding a depth channel in Python with the PyTorch library
 
-- name: Python
+- name: Concussion Detector
   i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  gh_user: dhipatel21
+  repo: Concussion_Detector
+  img: /static/assets/img/landing/concussion.jpg
+  desc: Researched and developed a wearable IMU-based neck/head sensor for better prediction and diagnosis of concussion/whiplash injuries in athletes, using STM32 microcontrollers, UART, I2C, SPI, and ported drivers in C.
 
-- name: Google
+- name: Autonomous Robotics - Pursuer-Evader
   i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  gh_user: dhipatel21
+  repo: Pursuer_Evader
+  img: /static/assets/img/landing/full_slam.jpg
+  desc: Implemented pursuit-evasion behaviors for two differential-wheeled robots using Python and C++, integrating LCM and OpenCV for real-time audio and visual tracking, and achieving autonomous navigation and target acquisition for dynamic and cluttered environments.
+
+
+- name: Adaptive Cruise Control
+  i18n: google
+  gh_user: dhipatel21
+  repo: Cruise_Control
+  img: /static/assets/img/landing/acc.png
+  desc: Developed a Simulink model for a vehicle with Adaptive Cruise Control (ACC) and haptic steering, where wheel position controls steering angles and feedback forces. Implemented differential equations to simulate vehicle dynamics, designed logic for speed and position control switching, and integrated a PID-based automatic steering controller while interfacing with hardware components such as ADC, CAN bus, and digital inputs.
