@@ -15,7 +15,7 @@ author:  # change following line to your infomation.
   name: Dhillon Patel  # Be used at blog posts' author.
   first_name: Dhillon  # Be used at index page about me section.
   last_name: Patel  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/profile_pic2.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/shrunk.jpg  # upload your avatar at directory and edit it.
   github_username: dhipatel21  # Leave blank if you don't have now
   linkedin_id: dhillon-patel-522295208 # Leave blank if you don't have now
   email: dhillonpatel21@gmail.com  # Leave blank if you don't have now

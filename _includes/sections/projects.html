@@ -18,7 +18,10 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
-                  <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive hover-image" alt="">
+                  <!-- <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive hover-image" alt=""> -->
+                  <a href="{% if project.url %}{{ project.url }}{% elsif project.repo %}https://github.com/{{ project.gh_user }}/{{ project.repo }}{% endif %}" target="_blank">
+                    <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive hover-image" alt="">
+                  </a>
                   <h4>
                   {% if project.url %}
                   <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
