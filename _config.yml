@@ -19,7 +19,7 @@ author:  # change following line to your infomation.
   github_username: dhipatel21  # Leave blank if you don't have now
   linkedin_id: dhillon-patel-522295208 # Leave blank if you don't have now
   email: dhillonpatel21@gmail.com  # Leave blank if you don't have now
-  cv: /resume/Dhillon_Patel_Resume.pdf #https://dhillonpatelresume.tiiny.site  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: /Dhillon_Patel_Resume.pdf #https://dhillonpatelresume.tiiny.site  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-music
@@ -52,6 +52,12 @@ donation: off  # type 'on'/'off' to choice display donation button at post page 
 ## carousels
 index_carousel: on  # index page carousel switch
 blog_carousel: off  # blog page carousel switch
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Kinematics-motion"
+    url: "/kinematics-motion/"
 
 # scss
 sass:

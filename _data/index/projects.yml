@@ -29,3 +29,9 @@
   repo: Cruise-Control
   img: /static/assets/img/landing/acc.png
   desc: Developed a Simulink model for a vehicle with Adaptive Cruise Control (ACC) and haptic steering, where wheel position controls steering angles and feedback forces. Implemented differential equations to simulate vehicle dynamics, designed logic for speed and position control switching, and integrated a PID-based automatic steering controller while interfacing with hardware components such as ADC, CAN bus, and digital inputs.
+
+- name: Robot Kinematics and Motion Planning
+  i18n: google
+  url: "/kinematics-motion/"
+  img: /static/assets/img/landing/pend.png
+  desc: Developed projects in JavaScript and HTML5, covering robot middleware architectures and publish-subscribe messaging models, graph search path planning (A* algorithm), basic physical simulation (Lagrangian dynamics, numerical integrators), proportional-integral-derivative (PID) control, forward kinematics (3D geometric matrix transforms, matrix stack composition of transforms, axis-angle rotation by quaternions), inverse kinematics (gradient descent optimization, geometric Jacobian), and motion planning (simple collision detection, sampling-based motion planning).
