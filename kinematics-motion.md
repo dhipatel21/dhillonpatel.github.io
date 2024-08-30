@@ -57,7 +57,7 @@ I rendered the forward kinematics of an arbitrary robot, given an arbitrary kine
 
 ## Inverse Kinematics
 
-I implemented inverse kinematics through gradient descent optimization with both the Jacobian Transpose and Jacobian Pseudoinverse methods, so that the robot to reaches a given point in space for position control of the robot endeffector.
+I implemented inverse kinematics through gradient descent optimization with both the Jacobian Transpose and Jacobian Pseudoinverse methods, so that the robot has position control of its end effector.
 
 <img src="/inversekinematics.gif" alt="AStar" width="450" height="450">
 
