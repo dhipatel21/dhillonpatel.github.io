@@ -41,7 +41,7 @@ I implemented a heap data structure (priority queue) and A<sup>*</sup> Search Al
 
 ## Physical Simulation of a Simple Pendulum
 
-I implemented the physical dynamics and servo controller for a simple 1 degree-of-freedom robot system. This system is 1 DOF robot arm as a frictionless simple pendulum with a rigid massless rod and idealized motor.
+I implemented Euler's Method and Velocity Verlet to show the physical simulation for a simple 1 degree-of-freedom robot system. This system is 1 DOF robot arm as a frictionless simple pendulum with a rigid massless rod and idealized motor.
 
 <img src="/pendularm.gif" alt="AStar" width="450" height="450">
 
