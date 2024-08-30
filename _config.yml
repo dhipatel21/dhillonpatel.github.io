@@ -56,8 +56,8 @@ blog_carousel: off  # blog page carousel switch
 nav:
   - title: "Home"
     url: "/"
-  - title: "Kinematics-motion"
-    url: "/kinematics-motion/"
+  # - title: "Kinematics-motion"
+  #   url: "/kinematics-motion/"
 
 # scss
 sass:

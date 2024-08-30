@@ -18,13 +18,21 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
               <div class="team-member">
-                  <!-- <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive hover-image" alt=""> -->
+                {% if project.url %}
+                  <a href="{% if project.url %}{{ project.url }}{% elsif project.repo %}https://github.com/{{ project.gh_user }}/{{ project.repo }}{% endif %}" target="_self">
+                    <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive hover-image" alt="">
+                  </a>
+                {% elsif project.repo %}
                   <a href="{% if project.url %}{{ project.url }}{% elsif project.repo %}https://github.com/{{ project.gh_user }}/{{ project.repo }}{% endif %}" target="_blank">
                     <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive hover-image" alt="">
                   </a>
+                {% endif %}
+                  <!-- <a href="{% if project.url %}{{ project.url }}{% elsif project.repo %}https://github.com/{{ project.gh_user }}/{{ project.repo }}{% endif %}" target="_blank">
+                    <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive hover-image" alt="">
+                  </a> -->
                   <h4>
                   {% if project.url %}
-                  <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
+                  <a href="{{ project.url }}" target="_self"><span class="navy">{{ project.name }}</span></a>
                   {% elsif project.repo %}
                   <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
                   {% else %}
