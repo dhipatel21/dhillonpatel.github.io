@@ -17,7 +17,7 @@ author:  # change following line to your infomation.
   last_name: Patel  # Be used at index page about me section.
   avatar: /static/assets/img/landing/shrunk.jpg  # upload your avatar at directory and edit it.
   github_username: dhipatel21  # Leave blank if you don't have now
-  linkedin_id: dhillon-patel-522295208 # Leave blank if you don't have now
+  linkedin_id: dhillonpatel21 # Leave blank if you don't have now
   email: dhillonpatel21@gmail.com  # Leave blank if you don't have now
   cv: /Dhillon_Patel_Resume.pdf #https://dhillonpatelresume.tiiny.site  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
